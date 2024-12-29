@@ -63,7 +63,7 @@
      <rect>
       <x>21</x>
       <y>50</y>
-      <width>111</width>
+      <width>261</width>
       <height>16</height>
      </rect>
     </property>
@@ -73,7 +73,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Enter Web Address</string>
+     <string>Enter Web Address from elenta.lt</string>
     </property>
    </widget>
   </widget>

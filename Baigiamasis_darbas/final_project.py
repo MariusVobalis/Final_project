@@ -30,7 +30,7 @@ class Ui_MainWindow(object):
         self.feedback_label.setWordWrap(True)
         self.feedback_label.setObjectName("feedback_label")
         self.Enter_label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.Enter_label.setGeometry(QtCore.QRect(21, 50, 111, 16))
+        self.Enter_label.setGeometry(QtCore.QRect(21, 50, 261, 16))
         font = QtGui.QFont()
         font.setBold(True)
         self.Enter_label.setFont(font)
@@ -51,4 +51,4 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.start_Button.setText(_translate("MainWindow", "Start"))
-        self.Enter_label.setText(_translate("MainWindow", "Enter Web Address"))
+        self.Enter_label.setText(_translate("MainWindow", "Enter Web Address from elenta.lt"))

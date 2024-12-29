@@ -82,7 +82,7 @@ class MainWindow(QMainWindow):
 
         #rodoma žinutė jeigu url netinkamas
         else:
-            self.ui.feedback_label.setText(f"{url} netinkamas web puslapis") 
+            self.ui.feedback_label.setText(f"{url} netinkamas web puslapis\nurrl turi priklausyti elenta.lt") 
  
 
  #inicijuojama programa
