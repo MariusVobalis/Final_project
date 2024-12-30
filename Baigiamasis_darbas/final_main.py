@@ -64,8 +64,8 @@ class MainWindow(QMainWindow):
                             #Duomenys išsaugomi faile
                             writer.writerow([title, price])
                             #Išvalomas price selektorius nuo nereikalingų simbolių ir susumuojamas.
-                            price = price.replace("€", "").replace(" ", "")
-                            total_amount += int(price)
+                            price = price.replace("€", "").replace(" ", "").replace(",", ".")
+                            total_amount += float(price)
                             
                     #spaudžiamas 'sekantis' mygtukas/ elementas
                     next_button = driver.find_elements(By.CSS_SELECTOR, 'li.pagerNextPage')
